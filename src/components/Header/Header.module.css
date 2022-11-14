@@ -1,0 +1,38 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: 60px;
+    border-bottom: 2px solid black;
+    background-color: #161b22;
+}
+
+.headerContainer{
+    width: 100%;
+    height: 100%;
+    max-width: 1024px;  
+    margin: 0 auto;
+}
+
+.headerWrapper{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.headerLeft{
+    color: #fff;
+}
+
+.headerLeft:hover{
+    cursor: pointer;
+}
+
+.headerRight{
+    color: #fff;
+}
