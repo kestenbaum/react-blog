@@ -1,0 +1,14 @@
+.link{
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0 10px;
+    transition-duration: .2s;
+}
+
+.link:hover{
+    font-size: 16px;
+    color: #f0f8ff;
+    transition-duration: .2s;
+}
