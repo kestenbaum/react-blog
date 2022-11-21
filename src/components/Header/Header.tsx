@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import { Logo } from '../Logo/Logo';
 import style from '../Header/Header.module.css';
+import { Navigation } from '../Navigation/Navigation';
 
 export const Header:FC = () =>  {
   return (
@@ -10,7 +11,9 @@ export const Header:FC = () =>  {
           <div className={style.headerLeft}>
             <Logo/>
           </div>
-          <div className={style.headerRight}>Navigation</div>
+          <div className={style.headerRight}>
+            <Navigation/>
+          </div>
         </header>
       </div>
     </header>
