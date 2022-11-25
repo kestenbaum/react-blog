@@ -9,7 +9,7 @@ export const Header:FC = () =>  {
       <div className={style.headerContainer}>
         <header className={style.headerWrapper}>
           <div className={style.headerLeft}>
-            <Logo/>
+            <Logo children={'Logo'}/>
           </div>
           <div className={style.headerRight}>
             <Navigation/>
